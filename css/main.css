@@ -32,55 +32,77 @@ nav li {
   font-size: 24px;
   font-weight: 700;
   margin-right: 35px;
-
 }
 .full-width {
-  width: 1200px;
+  width: 90%;
   margin: 0 auto;
   clear: both;
 }
+.about-text {
+  width: 60%;
+  float: left;
+  display: block;
+}
 .half-width {
-  width: 500px;
+  width: 50%;
   float: left;
   display: inline-block;
 }
 #intro, #portfolio, #contact {
   clear: both;
-  margin-left: 50px;
+  margin: auto;
   color: #EAE2D7;
 }
+#intro {
+  margin-left: 100px;
+}
+h1 {
+  font-size: 50px;
+}
+h2 {
+  font-size: 35px;
+}
+h3 {
+  font-size: 30px;
+  line-height: 0px;
+  font-weight: bold;
+  margin-top: 50px;
+}
 #about {
-  background-color:#EAE2D7;
-  margin: auto;
-  width:1100px;
-  height:400px;
-  position:relative;
-  bottom:0;
-  right:0;
-  border-radius: 1rem 1rem 1rem;
+  width: 85%;
+  height: 370px;
+  background: #EAE2D7;
+  position: relative;
   border: 20px solid #2263A1;
+  border-radius: 2rem 2rem 2px 2px;
+  margin: auto;
   color: #586070;
+  font-size: 20px;
   }
 #about:after {
-  content: " ";
-  width:1100px;
-  height:400px;
+  content: '';
   position: absolute;
-  z-index: -1;
   top: -3rem;
   left: -3rem;
   right: -3rem;
-  bottom: -3rem;
-  border: 60px solid #FE6F71;
-  border-radius: 1rem 1rem 1rem;
+  bottom: -20rem;
+  border-bottom: 1400px solid #FE6F71;
+  border-radius: 3rem;
+  z-index: -1;
 }
 #about img {
   width: 300px;
   margin: 30px;
   border: 3px solid #586070;
   border-radius: 2px;
+  float: left;
+  display: block;
 }
-
+#portfolio .portfolio-item {
+  width: 100%;
+  clear: both;
+}
 #portfolio img {
-  width: 400px;
+  width: 90%;
+  margin: auto;
 }
