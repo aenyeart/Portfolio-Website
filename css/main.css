@@ -40,13 +40,14 @@ nav li {
 }
 .about-text {
   width: 60%;
+  min-width: 565px;
   float: left;
   display: block;
 }
 .half-width {
   width: 50%;
   float: left;
-  display: inline-block;
+  text-align: center;
 }
 #intro, #portfolio, #contact {
   clear: both;
@@ -55,6 +56,11 @@ nav li {
 }
 #intro {
   margin-left: 100px;
+  overflow: hidden;
+}
+#buffer {
+  height: 20px;
+  clear: both;
 }
 h1 {
   font-size: 50px;
@@ -70,7 +76,9 @@ h3 {
 }
 #about {
   width: 85%;
-  height: 370px;
+  min-width: 977px;
+  min-height: 366px;
+/*  overflow: hidden; */
   background: #EAE2D7;
   position: relative;
   border: 20px solid #2263A1;
@@ -85,8 +93,8 @@ h3 {
   top: -3rem;
   left: -3rem;
   right: -3rem;
-  bottom: -20rem;
-  border-bottom: 1400px solid #FE6F71;
+  bottom: -3rem;
+  border-bottom: 2000px solid #FE6F71;
   border-radius: 3rem;
   z-index: -1;
 }
@@ -98,11 +106,33 @@ h3 {
   float: left;
   display: block;
 }
+#portfolio h3 {
+  text-align: center;
+  text-transform: capitalize;
+  margin: 30px;
+  }
+#portfolio .underline {
+  width: 30%;
+  min-width: 250px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  margin-left: auto;
+  margin-right: auto;
+
+  border: 3px solid #EAE2D7;
+}
 #portfolio .portfolio-item {
   width: 100%;
+  height: 300px;
   clear: both;
 }
+
 #portfolio img {
   width: 90%;
   margin: auto;
+}
+#contact {
+  clear: both;
+  margin: 100px;
+
 }
