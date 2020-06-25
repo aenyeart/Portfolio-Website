@@ -115,7 +115,7 @@ h3 {
   width: 30%;
   min-width: 250px;
   margin-top: 60px;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
   margin-left: auto;
   margin-right: auto;
 
@@ -123,8 +123,8 @@ h3 {
 }
 #portfolio .portfolio-item {
   width: 100%;
-  height: 300px;
   clear: both;
+  margin-top: 35px;
 }
 
 #portfolio img {
