@@ -21,7 +21,7 @@ header {
 nav {
   height: 40px;
 }
-nav ul {
+nav ul, #contact ul {
   list-style: none;
 }
 
@@ -87,7 +87,6 @@ h3 {
   width: 85%;
   min-width: 977px;
   min-height: 366px;
-/*  overflow: hidden; */
   background: #EAE2D7;
   position: relative;
   border: 20px solid #2263A1;
@@ -142,6 +141,20 @@ h3 {
 #contact {
   clear: both;
   color: #586070;
+}
+#contact ul {
+  margin: auto;
+}
+.widget {
+  width: 100%;
+}
+#contact li {
+  display: inline-block;
+  float: left;
+  margin-right: 45px;
+}
+#contact img {
+  width: 36px;
 }
 #bottom {
   background: #EAE2D7;

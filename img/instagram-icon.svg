@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" aria-labelledby="title"
+aria-describedby="desc" role="img" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <title>Instagram</title>
+  <desc>A line styled icon from Orion Icon Library.</desc>
+  <path data-name="layer1"
+  d="M9.687 2h44.625A7.49 7.49 0 0 1 62 9.687v44.625A7.49 7.49 0 0 1 54.312 62H9.687A7.49 7.49 0 0 1 2 54.312V9.687A7.49 7.49 0 0 1 9.687 2z"
+  fill="none" stroke="#586070" stroke-linecap="round" stroke-miterlimit="10"
+  stroke-width="4" stroke-linejoin="round"></path>
+  <path data-name="layer1" d="M45.687 8.656a2.721 2.721 0 0 0-2.719 2.719v6.469a2.721 2.721 0 0 0 2.719 2.719h6.75a2.721 2.721 0 0 0 2.719-2.719v-6.469a2.721 2.721 0 0 0-2.719-2.719zm9.563 18.75H50a18.523 18.523 0 0 1 .75 5.156c0 9.937-8.344 18.094-18.656 18.094a18.1 18.1 0 0 1-17.906-23.25H8.656v25.313A2.321 2.321 0 0 0 11 55.062h41.812a2.321 2.321 0 0 0 2.344-2.344l.094-25.312z"
+  fill="none" stroke="#586070" stroke-linecap="round" stroke-miterlimit="10"
+  stroke-width="4" stroke-linejoin="round"></path>
+  <path data-name="layer1" d="M32.094 20.187A11.927 11.927 0 0 0 20 31.906a11.85 11.85 0 0 0 12.094 11.625 11.927 11.927 0 0 0 12.094-11.719 11.85 11.85 0 0 0-12.094-11.625z"
+  fill="none" stroke="#586070" stroke-linecap="round" stroke-miterlimit="10"
+  stroke-width="4" stroke-linejoin="round"></path>
+</svg>
