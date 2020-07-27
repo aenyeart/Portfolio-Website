@@ -1,0 +1,145 @@
+body {
+  background: #DAF7F6;
+  font-family: 'Open Sans', sans-serif; /** Answer: YES. Q: does this need serif/sans-serif to be specified to work? **/
+  color: #3B3B3B;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+header {
+  background: #FFFFFF;
+  text-align: center;
+}
+header img {
+  margin-right: 18px;
+}
+h1 {
+  display: inline-block;
+  color: #F16059;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  /** Above lines for font seem unnecessary. **/
+  font-size: 48px;
+  text-transform: uppercase;
+  padding: 40px 0;
+  margin: 0;
+}
+
+main {
+  width: 1000px;
+  margin: auto;
+}
+
+.card {
+    margin: 20px 0;
+    overflow: auto;
+}
+.image {
+  float: left;
+  width: 500px;
+  height: 550px;
+}
+.recipe {
+  float: left;
+  padding: 20px;
+  width: 500px;
+  height: 550px;
+  box-sizing: border-box;
+  background: #FFFFFF
+}
+
+#cookies .image {
+ background-image: url("../img/gluten-free-sugar-cookies.jpg");
+ background-size: cover;
+}
+
+#pesto .image {
+  background-image: url("../img/nut-free-pesto.jpg");
+  background-size: cover;
+}
+
+#salad .image {
+  background-image: url("../img/watermelon-salad.jpg");
+  background-size: cover;
+}
+
+h2 {
+  color:  #F16059;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  text-transform: uppercase;
+  line-height: 36px;
+  margin-top: -5px;
+}
+
+.time {
+  margin-bottom: 30px;
+  border: 1px solid #3B3B3B;
+  overflow: auto;
+}
+.time div {   /** This points to divs WITHIN the time class, not THE time class div. **/
+  float: left;
+  padding-left: 6px;
+  width: 33.3333%;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  line-height: 8px;
+}
+.time div strong {
+  font-family: 'Montserrat', sans-serif;
+}
+.time img {
+  width: 15px;
+  height: auto;
+  margin-right: 7px;
+  vertical-align: middle;
+}
+.time-details {
+  display: inline-block;
+}
+.cook {
+    border-left: 1px solid #3B3B3B;
+    border-right: 1px solid #3B3B3B;
+}
+
+/** Classes named in HTML:
+card, image, recipe, time,
+  prep, cook, time-details,
+  description, columns, ingredients,
+  directions,
+IDs named in HTML:
+cookies, pesto, salad
+**/
+.columns {
+  overflow: auto;
+}
+.directions {
+  width: 54%;
+  box-sizing: border-box;
+  float: left;
+}
+.ingredients {
+  width: 46%;
+  box-sizing: border-box;
+  float: left;
+  padding-right: 15px;
+}
+.columns h3 {
+  color: #F16059;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  line-height: 28px;
+  text-transform: uppercase;
+  border-top: 1px solid #3B3B3B;
+  border-bottom: 1px solid #3B3B3B;
+}
+.columns ul {
+  padding-left: 15px;
+  line-height: 22px;
+  list-style: square;
+}
+.columns ol {
+  padding-left: 15px;
+  line-height: 22px;
+}

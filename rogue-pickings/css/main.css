@@ -1,0 +1,131 @@
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #000000;
+}
+
+/****** GRID ******/
+.full-width {
+  width: 1200px;
+  margin: 0 auto; /** For some reason, this line seems to be doing nothing:
+  No changes if I delete it or change values.
+  It is not centering my page in the browser as intended.**/
+}
+.half-width {
+  width: 600px;
+  float: left;
+}
+.third-width {
+  width: 400px;
+  float: left;
+  height: 210px;
+}
+
+/****** All things GREEN ******/
+header, #welcome h2, #content ul li, #contrast-fresh {
+color: #77a466;
+}
+/****** All things UPPERCASE and BOLD ******/
+header, nav, #welcome h2, #content h4, footer h3 {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/****** HEADER ******/
+header {
+  height: 80px;
+  padding-top: 25px;
+}
+header h1 {
+  font-size: 30px;
+  line-height: 23px;
+}
+.contrast-word {
+  color: #000000;
+}
+nav {
+  float: right;
+  padding-right:0px;
+}
+nav ul li {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 23px;
+    padding: 0 10px;
+}
+
+/****** WELCOME ******/
+#welcome img {
+  border-top: 3px solid #77a466;
+  border-bottom: 3px solid #77a466;
+}
+#welcome h2 {
+  font-size: 18px;
+  line-height: 23px;
+}
+#welcome p {
+  font-size: 16px;
+  line-height: 25px;
+}
+
+/****** CONTENT ******/
+#content .full-width {
+  height: 210px;
+  border-top: 1px solid #dedbdc;
+  border-bottom: 1px solid #dedbdc;
+}
+#content h4 {
+  font-size: 12px;
+  line-height: 25px;
+}
+#specials {
+  padding: 5px 30px 0 3px;
+}
+#specials ul {
+  font-size: 16px;
+  line-height: 36px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#review {
+  border-left: 1px solid #dedbdc;
+  border-right: 1px solid #dedbdc;
+  height: 206px;
+  padding: 5px 30px 0 30px;
+}
+#review p {
+  font-size: 16px;
+  line-height: 21px;
+}
+#contact {
+  padding: 5px 30px 0 30px;
+}
+#contact p {
+  font-size: 16px;
+  line-height: 24px;
+
+}
+
+/****** ******/
+
+/****** ******/
+
+/****** FOOTER ******/
+footer {
+  clear: both;
+  margin: auto;
+  text-align: center;
+}
+/** this footer h3  doesn't seem to be doing anything to the displayed text**/
+footer h3 {
+  font-size: 16px;
+  line-height: 23px;
+}
+
+
+#contrast-fresh {
+  font-family: 'Galada', cursive;
+  font-weight: regular;
+  text-transform: lowercase;
+}
