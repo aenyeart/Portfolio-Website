@@ -11,8 +11,14 @@ body {
   padding: 0;
   margin: 0;
   height: 100%;
+  font-family: 'Lora', serif; 
 }
-
+a {
+  text-decoration: none;
+}
+a:visited {
+  color: inherit;
+}
 header {
   height: 350px;
   font-family: 'Merriweather', serif;
@@ -24,7 +30,6 @@ nav {
 nav ul, #contact ul {
   list-style: none;
 }
-
 nav li {
   display: inline-block;
   float: right;
@@ -48,11 +53,12 @@ nav li {
   width: 50%;
   float: left;
   text-align: center;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 .third-width {
   width: 33%;
   float: left;
+  margin: auto;
   text-align: center;
 }
 #intro, #portfolio, #contact {
@@ -70,6 +76,7 @@ nav li {
 }
 #buffer2 {
   height: 100px;
+  clear: both;
 }
 h1 {
   font-size: 50px;
@@ -80,6 +87,7 @@ h2 {
 h3 {
   font-size: 30px;
   line-height: 0px;
+  font-family: 'Lora', serif;
   font-weight: bold;
   margin-top: 50px;
 }
@@ -102,7 +110,7 @@ h3 {
   left: -3rem;
   right: -3rem;
   bottom: -3rem;
-  border-bottom: 1775px solid #FE6F71;
+  border-bottom: 1702px solid #FE6F71;
   border-radius: 3rem;
   z-index: -1;
 }
@@ -128,7 +136,7 @@ h3 {
   margin-right: auto;
   border: 3px solid #EAE2D7;
 }
-#portfolio .portfolio-item {
+.portfolio-item {
   width: 100%;
   clear: both;
   margin-top: 35px;
@@ -138,27 +146,40 @@ h3 {
   width: 90%;
   margin: auto;
 }
+#contact h3 {
+  padding-top: 1em;
+}
 #contact {
+  width: 85%;
+  min-width: 977px;
+  min-height: 80px;
+  position: relative;
   clear: both;
   color: #586070;
+  background: #EAE2D7;
+  border: 20px solid #2263A1;
+  border-radius: 2px 2px 2rem 2rem;
+  margin-bottom: 75px;
+}
+#contact:after {
+  content: '';
+  position: absolute;
+  top: -3rem;
+  left: -3rem;
+  right: -3rem;
+  bottom: -3rem;
+  border: 3rem solid #FE6F71;
+  border-radius: 3rem;
+  z-index: -1;
 }
 #contact ul {
-  margin: auto;
-}
-.widget {
-  width: 100%;
+  text-align: center;
+  padding-top: 1em;
 }
 #contact li {
   display: inline-block;
-  float: left;
   margin-right: 45px;
 }
 #contact img {
   width: 36px;
-}
-#bottom {
-  background: #EAE2D7;
-  border: 20px solid #2263A1;
-  border-radius: 2px 2px 2rem 2rem;
-  color: #586070;
 }
