@@ -1,13 +1,14 @@
 /** COLORS
 red:    #FE6F71
 yellow: #F9BE58
+alt yellow: #EBB352
 blue:   #2263A1
 white:  #EAE2D7
 grey:   #586070
  **/
 
 body {
-  background: #F9BE58;
+  background: #EBB352;
   padding: 0;
   margin: 0;
   height: 100%;
