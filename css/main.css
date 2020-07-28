@@ -11,13 +11,14 @@ body {
   padding: 0;
   margin: 0;
   height: 100%;
-  font-family: 'Lora', serif; 
+  font-family: 'Lora', serif;
 }
 a {
   text-decoration: none;
+  color: #EAE2D7;
 }
 a:visited {
-  color: inherit;
+  color: #EAE2D7;
 }
 header {
   height: 350px;
