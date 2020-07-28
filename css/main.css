@@ -13,7 +13,7 @@ body {
   height: 100%;
   font-family: 'Lora', serif;
 }
-a {
+a:link {
   text-decoration: none;
   color: #EAE2D7;
 }
