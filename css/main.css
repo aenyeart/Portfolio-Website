@@ -112,8 +112,9 @@ h3 {
   left: -3rem;
   right: -3rem;
   bottom: -3rem;
-  border-bottom: 1702px solid #FE6F71;
-  border-radius: 3rem;
+  border: 3rem solid #FE6F71;
+  border-top-left-radius: 3rem;
+  border-top-right-radius: 3rem;
   z-index: -1;
 }
 #about img {
@@ -123,6 +124,13 @@ h3 {
   border-radius: 2px;
   float: left;
   display: block;
+}
+#portfolio {
+  width: 85%;
+  min-width: 1017px;
+  background-color:  #FE6F71;
+  overflow: auto;
+  border: 3rem solid #FE6F71;
 }
 #portfolio h3, #contact h3 {
   text-align: center;
@@ -171,7 +179,8 @@ h3 {
   right: -3rem;
   bottom: -3rem;
   border: 3rem solid #FE6F71;
-  border-radius: 3rem;
+  border-bottom-left-radius: 3rem;
+  border-bottom-right-radius: 3rem;
   z-index: -1;
 }
 #contact ul {
