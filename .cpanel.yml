@@ -1,0 +1,11 @@
+---
+deployment:
+  tasks:
+    # - export DEPLOYPATH=/home/andrewen/public_html/
+    # - /bin/cp -R images $DEPLOYPATH
+
+    - export DEPLOYPATH=/home/andrewen/public_html
+    # - export GIT_SSL_NO_VERIFY=true
+    - git clone git@github.com:aenyeart/Portfolio-Website.git $DEPLOYPATH
+    - chmod -R 755 $DEPLOYPATH
+    - chown -R username:andrewen $DEPLOYPATH
