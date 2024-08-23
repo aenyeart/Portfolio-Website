@@ -35,7 +35,7 @@ nav ul,
   list-style: none;
 }
 nav li {
-  display: inline-block;
+  /* display: inline-block; */
   float: right;
   text-transform: uppercase;
   font-size: 24px;
@@ -46,12 +46,6 @@ nav li {
   width: 90%;
   margin: 0 auto;
   clear: both;
-}
-.about-text {
-  width: 60%;
-  min-width: 565px;
-  float: left;
-  display: block;
 }
 .half-width {
   width: 50%;
@@ -102,7 +96,7 @@ h3 {
 }
 #about {
   width: 85%;
-  min-width: 977px;
+  /* min-width: 977px; */
   min-height: 366px;
   background: #eae2d7;
   position: relative;
@@ -111,7 +105,7 @@ h3 {
   margin: auto;
   color: #586070;
   font-size: 20px;
-  }
+}
 #about:after {
   content: "";
   position: absolute;
@@ -129,17 +123,27 @@ h3 {
   margin: 30px;
   border: 3px solid #586070;
   border-radius: 2px;
-  float: left;
-  display: block;
+  /* float: left; */
+  /* display: block; */
+  display: inline-block;
+}
+.about-text {
+  min-width: 50%;
+  /* min-width: 565px; */
+  /* float: left; */
+  /* display: block; */
+  display: inline-block;
 }
 #portfolio {
   width: 85%;
-  min-width: 1017px;
-  background-color:  #FE6F71;
+  /* min-width: 1017px; */
+  background-color: #fe6f71;
   overflow: auto;
-  border: 3rem solid #FE6F71;
+  /* border: 3rem solid #fe6f71; */
+  padding: 3rem;
 }
-#portfolio h3, #contact h3 {
+#portfolio h3,
+#contact h3 {
   text-align: center;
   text-transform: capitalize;
   margin: 30px;
@@ -168,7 +172,7 @@ h3 {
 }
 #contact {
   width: 85%;
-  min-width: 977px;
+  /* min-width: 977px; */
   min-height: 80px;
   position: relative;
   clear: both;
