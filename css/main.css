@@ -102,8 +102,8 @@ h3 {
   min-height: 366px;
   background: #eae2d7;
   position: relative;
-  border: 20px solid #59a122;
-  /* border: 20px solid #2263A1; */
+  /* border: 20px solid #59a122; */
+  border: 20px solid #2263a1;
   border-radius: 2rem 2rem 2px 2px;
   margin: auto;
   color: #586070;
