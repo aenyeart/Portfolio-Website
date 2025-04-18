@@ -24,7 +24,8 @@ a:visited {
 header {
   height: 350px;
   font-family: "Merriweather", serif;
-  color: #eae2d7;
+  color: #586070;
+  /* color: #eae2d7; */
 }
 nav {
   height: 40px;
@@ -34,7 +35,7 @@ nav ul,
   list-style: none;
 }
 nav li {
-  display: inline-block;
+  /* display: inline-block; */
   float: right;
   text-transform: uppercase;
   font-size: 24px;
@@ -45,12 +46,6 @@ nav li {
   width: 90%;
   margin: 0 auto;
   clear: both;
-}
-.about-text {
-  width: 60%;
-  min-width: 565px;
-  float: left;
-  display: block;
 }
 .half-width {
   width: 50%;
@@ -64,6 +59,9 @@ nav li {
   margin: auto;
   text-align: center;
 }
+/* #intro {
+  color: #586070;
+} */
 #intro,
 #portfolio,
 #contact {
@@ -98,11 +96,10 @@ h3 {
 }
 #about {
   width: 85%;
-  min-width: 977px;
+  /* min-width: 977px; */
   min-height: 366px;
   background: #eae2d7;
   position: relative;
-  /* border: 20px solid #59a122; */
   border: 20px solid #2263a1;
   border-radius: 2rem 2rem 2px 2px;
   margin: auto;
@@ -126,15 +123,24 @@ h3 {
   margin: 30px;
   border: 3px solid #586070;
   border-radius: 2px;
-  float: left;
-  display: block;
+  /* float: left; */
+  /* display: block; */
+  display: inline-block;
+}
+.about-text {
+  min-width: 50%;
+  /* min-width: 565px; */
+  /* float: left; */
+  /* display: block; */
+  display: inline-block;
 }
 #portfolio {
   width: 85%;
-  min-width: 1017px;
+  /* min-width: 1017px; */
   background-color: #fe6f71;
   overflow: auto;
-  border: 3rem solid #fe6f71;
+  /* border: 3rem solid #fe6f71; */
+  padding: 3rem;
 }
 #portfolio h3,
 #contact h3 {
@@ -166,7 +172,7 @@ h3 {
 }
 #contact {
   width: 85%;
-  min-width: 977px;
+  /* min-width: 977px; */
   min-height: 80px;
   position: relative;
   clear: both;
